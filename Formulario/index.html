@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form - FreeCodeCamp - Responsive Web Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">What is your favorite serie or movie?</h1>
+    <p id="description">Tell us what is your favorite serie or movie!</p>
+    <form id="survey-form">
+        <p>Tell us something about you:</p>
+        <label for="name" id="name-label">Name: </label>
+        <input type="text" name="name" id="name" required placeholder="Your name..." required />
+        <label for="email" id="email-label">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Your email..." required />
+        <label for="number" id="number-label">Age: <span>(Optional)</span></label>
+        <input type="number" name="number" id="number" placeholder="Your age..." min="0" max="120">
+        <label for="">Do you prefer watch the movies/series with...</label>
+        <label for=""><input type="checkbox" name="radio-family" id="radio-family" value="family"> Family</label>
+        <label for=""><input type="checkbox" name="radio-friends" id="radio-friends" value="friends"> Friends</label>
+        <label for=""><input type="checkbox" name="radio-alone" id="radio-alone" value="alone"> Alone</label>
+
+        <hr>
+
+        <p>Well, tell us something about your favorite show:</p>
+        <label for="name-show" id="name-label-show">Name: </label>
+        <input type="text" name="name-show" id="name-show" required
+            placeholder="The name of your favorito movie/serie..." required />
+        <label>It's a...</label>
+        <label for="radio-movie"><input type="radio" name="show-genre" id="radio-movie" value="movie"> Movie</label>
+        <label for="radio-serie"><input type="radio" name="show-genre" id="radio-serie" value="serie"> Serie</label>
+        <label for="dropdown">Genre:</label>
+        <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="Action">Action</option>
+            <option value="Adventure">Adventure</option>
+            <option value="Animation">Animation</option>
+            <option value="Biography">Biography</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Crime">Crime</option>
+            <option value="Documentary">Documentary</option>
+            <option value="Other">Other</option>
+        </select>
+        <label for="textarea-description">Provide a description:</label>
+        <textarea name="" id="textarea-description" cols="30" rows="5" required placeholder="In a world where the towns are peopled with cars, and even the bugs are mini motors, a young ambitious racing car called Lightning McQueen is a star. On his way to an important event he has to stop in the little town of Radiator Springs after he accidentally damages the road and is forced to repair it. He finds living in a community oddly endearing, making true friends and beginning to realise there's more in life than winning"></textarea>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+</body>
+
+</html>

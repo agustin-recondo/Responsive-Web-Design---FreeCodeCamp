@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+body {
+    margin: 0;
+    background-image: linear-gradient(
+        90deg,
+        rgba(199, 64, 33, 0.8),
+        rgba(206, 50, 15, 0.8)
+      ),
+      url(https://images.squarespace-cdn.com/content/v1/5c700bb1a568279ffd7817ce/1553621422516-HW5ZDL6MWH4JY0BXAJJC/generic-background-main.jpg?format=2500w);
+      background-size: cover;
+      color: #FFFFFF;
+      font-family: 'Raleway', sans-serif;
+      padding-top: 2em;
+}
+
+h1, p {
+    text-align: center;
+    font-style: italic;
+    text-shadow: 3px 3px 20px #FFFFFF,
+    -2px 1px 30px #FFFFFF;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+span {
+    color: grey;
+    font-size: 0.9rem;
+}
+
+hr {
+    border: 1px solid rgb(199, 64, 33);
+    width: 80%;
+    margin: 2rem auto;
+}
+
+form {
+    margin: 1rem auto;
+    width: 60%;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    padding: 2rem 1.8rem 2rem 1.8rem;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+
+input, select {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
+input[type='checkbox'], input[type='radio'] {
+    width: unset;
+    margin-bottom: 0;
+    height: 1rem;
+    transform: scale(1.5);
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 50%;
+    margin: 2em auto 0 auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #1c0404;
+    color: #FFFFFF;
+    border-color: rgb(224, 24, 24);
+    min-width: 300px;
+  }
