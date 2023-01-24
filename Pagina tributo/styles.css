@@ -170,7 +170,7 @@ table td {
         margin-bottom: 0.5rem;
     }
 
-    table td:last-child {
+    table tr:last-child td:last-child {
         border-bottom: none;
     }
 }
